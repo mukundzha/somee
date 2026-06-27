@@ -1,4 +1,3 @@
-````markdown
 # Somee
 
 > **Your second brain for code.**
