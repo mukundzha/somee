@@ -1,117 +1,124 @@
+
 # Somee
 
 > **Your second brain for code.**
 
-**Somee** is an open-source developer productivity tool that helps programmers capture, organize, search, and reuse code snippets with speed and simplicity.
+Somee is an open-source command-line application that helps developers capture, organize, and reuse code snippets quickly. It is being built in public from the very first commit and will gradually evolve into a complete developer knowledge management tool.
 
-The project begins as a lightweight command-line application and is being built in public from the very first commit. Over time, it will evolve into a complete knowledge management platform for developers.
-
-> **Project Status:** 🚧 Early Development
+> **Project Status:** 🚧 Active Development (v0.1.0-dev)
 
 ---
 
 # Why Somee?
 
-Every developer has code they write repeatedly.
+Developers constantly write code worth saving.
 
-Useful snippets end up scattered across old projects, notes, chat messages, or forgotten files.
+Instead of searching through old repositories, notes, or chat messages, Somee provides one place to store and retrieve your programming knowledge.
 
-Somee aims to solve that problem by providing one place to save, organize, and instantly retrieve your programming knowledge.
-
-Instead of searching through old repositories, simply search Somee.
+The goal is to make finding useful code snippets fast, simple, and enjoyable.
 
 ---
 
-# Vision
+# Current Features
 
-Build a developer-first knowledge base where programmers can:
-
-- 📚 Store code snippets
-- 🔍 Search instantly
-- 🏷️ Organize with tags and categories
-- 💡 Capture programming ideas
-- 🤖 Leverage AI-powered search and explanations
-- ☁️ Sync across devices
-- ⚡ Access everything in seconds
-
-The long-term goal is to transform Somee into a powerful toolkit that developers rely on every day.
+- ✅ Interactive command-line interface
+- ✅ Command-based workflow
+- ✅ Help menu
+- ✅ Add new snippets
+- ✅ Multi-line code snippet support
+- ✅ View all saved snippets
+- 🚧 Search snippets *(Coming Soon)*
+- 🚧 Delete snippets *(Coming Soon)*
 
 ---
 
-# Features
+# Example
 
-## Current
+```text
+Somee
+Your Second Brain for Code.
 
-- 🚧 Project initialization
-- 🚧 Active development
+Type 'help' to get started.
 
-## Planned
+somee > add
 
-- Save snippets
-- Search snippets
-- Delete snippets
-- Edit snippets
-- Tags
-- Categories
-- Favorites
-- Syntax highlighting
-- Markdown support
-- Import & Export
-- SQLite storage
-- AI-powered search
-- Semantic search
-- Cloud synchronization
-- Desktop application
-- Web application
-- VS Code Extension
-- Plugin system
+Title: Binary Search
+Language: Python
+Description: Binary search implementation
+
+Code (type 'END' on a new line to finish):
+
+def binary_search(arr, target):
+    ...
+
+END
+
+✓ Snippet 'Binary Search' added successfully.
+```
 
 ---
 
 # Roadmap
 
 ## Version 0.1
-- [ ] Add snippets
-- [ ] View snippets
-- [ ] Delete snippets
+
+- [x] CLI foundation
+- [x] Help command
+- [x] Add snippets
+- [x] Multi-line code input
+- [x] List snippets
 - [ ] Search snippets
+- [ ] Delete snippets
+- [ ] Edit snippets
 
 ## Version 0.2
 
+- [ ] JSON storage
+- [ ] Persistent snippets
 - [ ] Categories
 - [ ] Tags
 - [ ] Favorites
-- [ ] Improved search
 
 ## Version 0.3
 
 - [ ] SQLite database
+- [ ] Advanced search
+- [ ] Import & Export
 - [ ] Syntax highlighting
-- [ ] Import / Export
 
-## Future
+## Future Vision
 
-- [ ] AI assistance
+- [ ] AI-powered snippet search
 - [ ] Semantic search
-- [ ] Cloud sync
-- [ ] Desktop app
-- [ ] Web app
+- [ ] Cloud synchronization
+- [ ] Desktop application
+- [ ] Web application
 - [ ] VS Code extension
+- [ ] Plugin system
 
 ---
 
 # Installation
 
+Clone the repository:
+
 ```bash
 git clone https://github.com/mukundzha/somee.git
+```
 
+Go to the project directory:
+
+```bash
 cd somee
+```
 
+Run the application:
+
+```bash
 python main.py
 ```
 
 ---
-
 
 # Built With
 
@@ -119,36 +126,50 @@ python main.py
 - Git
 - GitHub
 
-More technologies will be introduced as the project evolves.
-
 ---
 
 # Development Philosophy
 
-Somee is built with a simple philosophy:
+Somee is built with one principle:
 
-> **Build small. Improve continuously. Never stop refining.**
+> **Build small. Improve continuously.**
+
 Every feature starts simple and becomes better through iteration.
-Every commit represents measurable progress.
-Every release moves Somee closer to becoming an essential developer tool.
+
+Every commit is a step toward building a powerful open-source developer tool.
 
 ---
 
 # Contributing
 
-The project is currently under active development.
-Bug reports, feature suggestions, discussions, and pull requests are welcome.
+Somee is currently under active development.
+
+Ideas, bug reports, feature requests, and pull requests are always welcome.
 
 ---
 
 # Progress
 
-**Current Version**
+Current Version
+
+```text
 v0.1.0-dev
+```
 
+Current Milestone
 
-**Project Started**
-June 2026
+```text
+✓ CLI Foundation
+✓ Add Snippets
+✓ Multi-line Code Support
+✓ List Snippets
+```
+
+Next Milestone
+
+```text
+Search Snippets
+```
 
 ---
 
@@ -162,8 +183,8 @@ This project is licensed under the MIT License.
 
 **Mukund Jha**
 
+Building open-source tools for developers, one commit at a time.
 
-Building open-source tools that help developers write better software.
 ---
 
-⭐ If you like the vision behind **Somee**, consider giving the repository a star and following its journey as it grows.
+⭐ If you like the vision behind **Somee**, consider giving the repository a star and following its development journey.
