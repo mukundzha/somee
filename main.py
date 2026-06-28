@@ -27,5 +27,4 @@ def loading_page():
         else:
             print("Invalid command.")
 
-
 loading_page()

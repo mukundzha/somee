@@ -71,8 +71,6 @@ The long-term goal is to transform Somee into a powerful toolkit that developers
 # Roadmap
 
 ## Version 0.1
-
-- [ ] CLI interface
 - [ ] Add snippets
 - [ ] View snippets
 - [ ] Delete snippets
