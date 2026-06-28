@@ -110,7 +110,6 @@ git clone https://github.com/mukundzha/somee.git
 cd somee
 
 python main.py
-'''
 
 ---
 
@@ -163,8 +162,8 @@ This project is licensed under the MIT License.
 
 **Mukund Jha**
 
-Building open-source tools that help developers write better software.
 
+Building open-source tools that help developers write better software.
 ---
 
 ⭐ If you like the vision behind **Somee**, consider giving the repository a star and following its journey as it grows.
