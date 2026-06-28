@@ -1,7 +1,7 @@
 # SOMEE - SNIPPET MANAGER
 
 def show_help():
-    print("Available Commands:\n")
+    print("Available Commands:")
     print("add       Create a snippet")
     print("search    Find snippets")
     print("list      Show all snippets")
