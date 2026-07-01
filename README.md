@@ -3,7 +3,7 @@
 
 > **Your second brain for code.**
 
-Somee is an open-source command-line application that helps developers capture, organize, and reuse code snippets quickly. It is being built in public from the very first commit and will gradually evolve into a complete developer knowledge management tool.
+Somee  is an open-source command-line application that helps developers capture, organize, and reuse code snippets quickly. It is being built in public from the very first commit and will gradually evolve into a complete developer knowledge management tool.
 
 > **Project Status:** 🚧 Active Development (v0.1.0-dev)
 
